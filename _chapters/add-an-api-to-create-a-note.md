@@ -35,7 +35,7 @@ api.route("POST /notes", "packages/functions/src/create.main");
 
 We are doing a couple of things of note here.
 
-- We are creating an API using SST's [`Api`]({{ site.sst_url }}/docs/component/apigatewayv2/){:target="_blank"} component. It creates an [Amazon API Gateway HTTP API](https://docs.aws.amazon.com/apigateway/latest/developerguide/http-api.html){:target="_blank"}.
+- We are creating an API using SST's [`Api`]({{ site.sst_url }}/docs/component/aws/apigatewayv2){:target="_blank"} component. It creates an [Amazon API Gateway HTTP API](https://docs.aws.amazon.com/apigateway/latest/developerguide/http-api.html){:target="_blank"}.
 
 - We are [linking]({{ site.sst_url }}/docs/linking/){:target="_blank"} our DynamoDB table to our API using the `link` prop. This will allow our API to access our table.
 
