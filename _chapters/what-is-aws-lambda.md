@@ -63,7 +63,7 @@ export const handler = async (event, context) => {
 
 Here `handler` is the name of our Lambda function. It's an `async` function. The `event` object contains all the information about the event that triggered this Lambda. In the case of an HTTP request it'll be information about the specific HTTP request. The `context` object contains info about the runtime our Lambda function is executing in.
 
-After we do all the work inside our Lambda function, we simply return. If this function is connected to an API Gateway, your can return the response HTTP status code and body.
+After we do all the work inside our Lambda function, we simply return. If this function is connected to an API Gateway, you can return the response HTTP status code and body.
 
 ### Packaging Functions
 
