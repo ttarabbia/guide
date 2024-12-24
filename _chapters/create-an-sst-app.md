@@ -37,7 +37,7 @@ $ cd notes
 {%change%} Use your app name in the template.
 
 ```bash
-$ npx replace-in-file /monorepo-template/g notes **/*.* --verbose
+$ npx replace-in-file '/monorepo-template/g' 'notes' '**/*.*' --verbose
 ```
 
 {%change%} Install the dependencies.
